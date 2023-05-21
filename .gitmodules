@@ -1,0 +1,3 @@
+[submodule "deps/pyautoit"]
+	path = deps/pyautoit
+	url = https://github.com/jacexh/pyautoit.git

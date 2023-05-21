@@ -1,0 +1,58 @@
+from __future__ import annotations
+
+from rka.util.mflag import MutableFlagEnum
+
+
+class MutableFlags(MutableFlagEnum):
+    ___ABILITIES_________ = True
+    ENABLE_LOCAL_ABILITIES = True
+    ENABLE_SPAM_INTERRUPT = False
+    ENABLE_SPAM_CONTROL = False
+    ENABLE_SMART_INTERCEPT = False
+    ENABLE_SMART_COMBINATION = False
+    ENABLE_RESET_EVENTS = True
+    ENABLE_MYSTIC_GRP_WARD = True
+    CAST_ALL_CURE_CURSES = True
+
+    ___GROUP____________ = True
+    AUTO_ACCEPT_REZ = True
+    AUTO_ACCEPT_REZ_MAIN_PLAYER = False
+    AUTO_REVIVE_IF_NO_REZ = False
+    AUTO_SELF_REZ = True
+
+    ___AUTOMATIONS______ = True
+    ENABLE_AUTO_SYNERGY = True
+    ENABLE_OFFZONE_COMBAT_SCRIPTS = True
+    AUTOMATIC_TRACKING_FOLLOW = True
+    AUTO_HEROIC_OPPORTUNITY = True
+    ENABLE_BARRAGE_SAVE = False
+    ENABLE_AUTOCURE = True
+
+    ___OVERSEERS________ = True
+    OVERSEER_ADD_AGENTS = True
+    OVERSEER_CONVERT_AGENTS = True
+    OVERSEER_AUTOMATIC_LOGOUT = True
+    OVERSEER_LOOT_ALLOW_TRANSMUTE = False
+    OVERSEER_LOOT_ALLOW_SALVAGE = False
+
+    ___INFOS____________ = True
+    ALWAYS_SHOW_IMMEDIATE_DPS = True
+    SHOW_INCOMING_DAMAGE_TINT = True
+    SAVE_NONDPS_LOGS = False
+    PRINT_TOP_DPS_ABILITY_LOG = False
+    PRINT_FULL_DPS_ABILITY_LOG = False
+    PRINT_INC_HPS_LOG = False
+    ENABLE_NOTIFICATION_SERVICE = True
+    SHOW_ALL_SPELLCASTING = False
+
+    ___UTILS____________ = True
+    DISCORD_GROUP_VOICE = False
+    PS_GROUP_VOICE = True
+    PARSE_OWN_ACT_TRIGGER_TELLS = False
+    SHOW_FAILED_CAPTURE_ASSERTS = False
+    SAVE_OCR_IMAGES = False
+    SAVE_SCRIPT_CAPTURES = False
+
+    ___DEBUG____________ = True
+    ALWAYS_CAPTURE_MAIN_WINDOW = True
+    REFOCUS_MAIN_WINDOW_FOR_SCRIPTS = True

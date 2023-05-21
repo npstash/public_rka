@@ -1,0 +1,10 @@
+mss
+netifaces
+numpy
+opencv-python==4.5.4.58
+Pillow
+pypiwin32
+pywin32
+pyWinhook
+regex
+requests
